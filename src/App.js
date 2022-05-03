@@ -50,7 +50,6 @@ const App = () => {
 
   return (
     <div style={{ backgroundImage: `url(${background})` }}>
-      className="App">
       {!chosenLevel && (
         <div className="level-selector">
           <h1>Word Association Game</h1>
